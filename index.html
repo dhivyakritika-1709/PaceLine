@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PACEline running essentials and footwear.">
+  <title>PACEline — Running Gear</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <span>FREE UK DELIVERY OVER £75 · 30-DAY RETURNS</span>
+    <span>AUTUMN '26 · NEW ARRIVALS DROPPING WEEKLY</span>
+    <span>STORE: GLASGOW · EN / £ GBP</span>
+  </div>
+
+  <header class="navbar">
+    <a class="brand" href="index.html">PACELINE</a>
+    <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#shop">Men</a>
+      <a href="#shop">Women</a>
+      <a href="#shop">Footwear</a>
+      <a href="#shop">Apparel</a>
+      <a href="#shop">Brands</a>
+      <a href="#shop">Sale</a>
+      <a href="story.html">About</a>
+    </nav>
+    <div class="nav-actions">
+      <button aria-label="Search" class="icon-btn" id="searchBtn">⌕</button>
+      <a href="#shop" aria-label="Account" class="icon-btn">♙</a>
+      <button aria-label="Cart" class="cart-btn" id="cartBtn">🛒 <span id="cartCount">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow lime">AUTUMN · WINTER '26 COLLECTION</p>
+        <h1>Chase<br>Every Second.</h1>
+        <p class="hero-copy">Race-day gear, trail-tested essentials, and everyday kit — curated by runners, worn on every terrain.</p>
+        <div class="hero-buttons">
+          <a href="#shop" class="btn btn-lime">SHOP NEW ARRIVALS →</a>
+          <a href="story.html" class="btn btn-outline-light">READ OUR STORY</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section categories">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow orange">01 · SHOP BY CATEGORY</p>
+          <h2>Every discipline. Every distance.</h2>
+        </div>
+        <a href="#shop" class="small-link">VIEW ALL COLLECTIONS →</a>
+      </div>
+      <div class="category-grid">
+        <a class="category-card img-road" href="#shop">
+          <div><h3>Road Running</h3><p>Race-day, everyday.</p><span>SHOP →</span></div>
+        </a>
+        <a class="category-card img-trail" href="#shop">
+          <div><h3>Trail Running</h3><p>Grip, protection, adventure.</p><span>SHOP →</span></div>
+        </a>
+        <a class="category-card img-apparel" href="#shop">
+          <div><h3>Apparel</h3><p>Layers built for every mile.</p><span>SHOP →</span></div>
+        </a>
+        <a class="category-card img-accessories" href="#shop">
+          <div><h3>Accessories</h3><p>Watches, packs, tech.</p><span>SHOP →</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section products-section" id="shop">
+      <div class="section-heading products-heading">
+        <div>
+          <p class="eyebrow orange">02 · JUST LANDED</p>
+          <h2>New arrivals for the run.</h2>
+        </div>
+        <div class="filter-pills" role="group" aria-label="Product filters">
+          <button class="filter active" data-filter="all">New In</button>
+          <button class="filter" data-filter="best">Best Sellers</button>
+          <button class="filter" data-filter="race">Race Day</button>
+          <button class="filter" data-filter="trail">Trail</button>
+        </div>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="story-strip">
+      <div class="story-image img-story-runner" aria-label="Runner on a mountain"></div>
+      <div class="story-copy">
+        <p class="eyebrow lime">OUR STORY</p>
+        <h2>Built by runners.<br>Worn on every terrain.</h2>
+        <p>PACELINE opened in 2015 with one goal — to become an all-inclusive hub for runners. Twenty seasons in, we still hand-pick every shoe, every layer and every accessory in our range.</p>
+        <div class="story-stats">
+          <div><strong>10+</strong><span>YEARS IN SPORT</span></div>
+          <div><strong>40+</strong><span>BRANDS STOCKED</span></div>
+          <div><strong>1</strong><span>STORE IN GLASGOW</span></div>
+        </div>
+        <a class="btn btn-outline-light" href="story.html">READ THE FULL STORY →</a>
+      </div>
+    </section>
+
+    <section class="section feature-cards">
+      <a class="feature-card img-mens" href="#shop"><div><h2>Men's Running</h2><p>Pyjamas & running kit from race-day to races.</p><span>SHOP NOW →</span></div></a>
+      <a class="feature-card img-womens" href="#shop"><div><h2>Women's Running</h2><p>20% of profits from kits go to Girls Run Glasgow.</p><span>SHOP NOW →</span></div></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <section class="newsletter">
+      <div><h2>Join the Paceline club.</h2><p>Early access to new drops, race-day tips, and 10% off your first order.</p></div>
+      <form id="newsletterForm"><input type="email" aria-label="Email address" placeholder="you@email.com" required><button>SUBSCRIBE</button></form>
+    </section>
+    <div class="footer-main">
+      <div class="footer-brand"><h3>PACELINE</h3><p>Race-day gear, trail-tested essentials, and everyday running kit — curated in Glasgow since 2015.</p></div>
+      <div><h4>SHOP</h4><a>Men's</a><a>Women's</a><a>Footwear</a><a>Apparel</a><a>Accessories</a><a>Sale</a></div>
+      <div><h4>HELP</h4><a>Contact</a><a>Shipping</a><a>Returns</a><a>Size Guides</a><a>Gift Analysis</a><a>FAQs</a></div>
+      <div><h4>COMPANY</h4><a href="story.html">About Us</a><a>Store · Glasgow</a><a>Sustainability</a><a>Careers</a><a>Wholesale</a><a>Press</a></div>
+      <div><h4>FOLLOW</h4><a>Instagram</a><a>Strava</a><a>TikTok</a><a>YouTube</a><a>Newsletter</a><a>Blog</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Paceline Running Co. — All rights reserved.</span><span>Privacy · Terms · Cookies · Accessibility</span></div>
+  </footer>
+
+  <!-- Product details modal -->
+  <div class="modal-backdrop" id="productModal" hidden>
+    <div class="product-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <div class="modal-image" id="modalImage"></div>
+      <div class="modal-info">
+        <p class="eyebrow orange" id="modalBrand"></p>
+        <h2 id="modalTitle"></h2>
+        <p class="modal-price" id="modalPrice"></p>
+        <p id="modalDescription"></p>
+        <label>Size
+          <select id="sizeSelect">
+            <option value="">Select size</option><option>UK 5</option><option>UK 6</option><option>UK 7</option><option>UK 8</option><option>UK 9</option><option>UK 10</option><option>UK 11</option>
+          </select>
+        </label>
+        <label>Colour
+          <select id="colourSelect">
+            <option>Default colour</option><option>Black</option><option>White</option><option>Orange</option>
+          </select>
+        </label>
+        <div class="quantity-row"><button id="qtyMinus">−</button><span id="qtyValue">1</span><button id="qtyPlus">+</button></div>
+        <button class="add-modal-btn" id="addToCartBtn">ADD TO CART</button>
+        <p class="modal-note">Free UK delivery over £75 · 30-day returns.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cart drawer -->
+  <div class="drawer-backdrop" id="cartBackdrop" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer-head"><h2>Your cart</h2><button id="cartClose" aria-label="Close cart">×</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-empty" id="cartEmpty">Your cart is empty.<br><span>Add a pair and your items will appear here.</span></div>
+    <div class="cart-footer">
+      <div><span>Subtotal</span><strong id="cartSubtotal">£0</strong></div>
+      <button class="checkout-btn" id="checkoutBtn">CHECKOUT</button>
+      <small>Demo checkout for frontend task.</small>
+    </div>
+  </aside>
+
+  <div class="search-bar" id="searchBar" hidden>
+    <input id="searchInput" type="search" placeholder="Search running gear..." aria-label="Search">
+    <button id="searchClose">×</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
