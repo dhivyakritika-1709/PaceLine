@@ -9,27 +9,6 @@ A responsive HTML/CSS/JavaScript implementation based on the supplied Home and O
 - `script.js` — product filters, product details, size/colour selection, quantity, cart, localStorage, search and mobile menu
 - `assets/` — add your own images here
 
-## Add the supplied/design images
-Replace the placeholder image files referenced by the CSS/HTML with your own files using these names:
-
-- `hero.jpg`
-- `category-road.jpg`
-- `category-trail.jpg`
-- `category-apparel.jpg`
-- `category-accessories.jpg`
-- `product-1.jpg`
-- `product-2.jpg`
-- `product-3.jpg`
-- `product-4.jpg`
-- `story-runner.jpg`
-- `mens-running.jpg`
-- `womens-running.jpg`
-- `story-wide.jpg`
-- `map.jpg`
-- `rae.jpg`
-- `jamie.jpg`
-
-Keep the names, or update the matching `url(...)` / JavaScript references.
 
 ## Run locally
 Open `index.html` in a browser. For best results, use VS Code + Live Server.
