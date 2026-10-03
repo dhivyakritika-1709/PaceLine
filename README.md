@@ -1,41 +1,112 @@
-# PACEline — DCS Web Cluster Frontend Task
+# PaceLine – Responsive Running Store Website
 
-A responsive HTML/CSS/JavaScript implementation based on the supplied Home and Our Story reference designs.
+PaceLine is a responsive running and sportswear e-commerce website developed as part of the DCS Web Development Cluster recruitment assignment.
 
-## Files
-- `index.html` — Home page
-- `story.html` — Our Story page
-- `style.css` — responsive styling
-- `script.js` — product filters, product details, size/colour selection, quantity, cart, localStorage, search and mobile menu
-- `assets/` — add your own images here
+The website follows the provided PaceLine UI reference and includes a Home page, Our Story page, product browsing, product details, and shopping cart functionality.
 
+---
 
-## Run locally
-Open `index.html` in a browser. For best results, use VS Code + Live Server.
+## Technologies Used
 
-No build step is required.
+- HTML
+- CSS
+- JavaScript
+- GitHub
+- GitHub Pages
 
-## Main functionality
-- Home → Our Story navigation
-- Responsive desktop/tablet/mobile layout
-- Product cards open a product details modal
-- Size, colour and quantity selection
-- Add to Cart
-- Cart drawer showing every selected item
-- Remove items
-- Persistent cart using localStorage
-- Product category filters
-- Search UI
-- Responsive mobile navigation
-- Accessible buttons, labels and keyboard-openable product cards
+---
 
-## Submission checklist from the task PDF
-The task asks for HTML/CSS/JS (or another allowed framework), interactivity, responsive behavior, browser compatibility, performance considerations, accessibility, clean code/comments, a Git repository with README, deployment, and submission by 05 October 2026. The implementation here is plain HTML/CSS/JS so it can be opened without installing a framework.
+## Features
 
-Before submission:
-1. Add your final optimized images.
-2. Test on Chrome, Firefox, Safari and Edge.
-3. Test phone, tablet and laptop widths.
-4. Push the project to GitHub.
-5. Deploy using a platform such as Netlify, Vercel or Firebase.
-6. Put the GitHub and deployment links into the submission form.
+### Home Page
+
+- Responsive navigation bar
+- Hero section
+- Shop by Category section
+- New Arrivals section
+- Product filtering
+- Our Story section
+- Men's Running section
+- Women's Running section
+- Newsletter section
+- Footer
+
+### Our Story Page
+
+- Our Story introduction
+- Company story
+- Company values
+- Timeline section
+- Visit Us section
+- People Behind the Shop section
+- Call-to-action section
+- Footer
+
+### Product Features
+
+- Product cards
+- Product details view
+- Product images
+- Product name and brand
+- Product price
+- Product description
+- Size selection
+- Colour selection where applicable
+- Quantity selection
+- Add to Cart functionality
+
+### Shopping Cart
+
+- Cart item count
+- View all added products
+- Increase product quantity
+- Decrease product quantity
+- Remove products from cart
+- Automatic subtotal calculation
+- Cart data stored using LocalStorage
+- Cart remains available after refreshing the page
+
+---
+
+## Responsive Design
+
+The website is designed to work across different screen sizes:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+The layout automatically adjusts according to the device screen size.
+
+---
+
+## Project Structure
+
+```text
+PaceLine/
+│
+├── index.html
+├── story.html
+├── style.css
+├── script.js
+├── README.md
+│
+└── assets/
+    ├── hero.png
+    ├── category-road.png
+    ├── category-trail.png
+    ├── category-apparel.png
+    ├── category-accessories.png
+    ├── image.png
+    ├── image1.png
+    ├── image2.png
+    ├── map.png
+    ├── mens-running.png
+    ├── product-1.png
+    ├── product-2.png
+    ├── product-3.png
+    ├── product-4.png
+    ├── story-runner.png
+    ├── story-wide.png
+    └── womens-running.png
